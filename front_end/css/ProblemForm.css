@@ -1,0 +1,72 @@
+input, select, textarea, button {	
+	border-radius: 5px;
+}
+
+.FirstRowHolder{
+	height: 30px;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}
+
+.ShortDescLabel{
+	height: inherit;		
+	flex-grow: 1; 	
+	display:flex; 
+	flex-direction: row;
+	align-items: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.ShortDescLabel input{		
+	flex-grow: 1;
+	height: 20px;
+	margin: 0px 5px 0px 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.RoomSelectLabel {
+	height: inherit;
+}
+
+.RoomSelectLabel select{	
+	height: 30px;
+	margin-right: 10px;
+	margin-left: 5px;
+	
+}
+
+.PrioritySelectLabel {
+	height: inherit;
+	margin-right: 10px;
+}
+
+.PrioritySelectLabel select{
+	height: 30px;
+	margin: 0px 0px 0px 5px; 
+}
+
+.FullDescLabel {			
+	flex-grow: 1;
+	margin: 10px 5px 5px;
+	display:flex; 
+	flex-direction: row;
+	align-items: center;
+}
+
+.FullDescLabel textarea{
+	margin: 0px 10px 0px 5px; 
+	padding: 3px;
+	flex-grow: 1; 
+	height: 92px;
+	resize: none;
+}
+
+.FullDescLabel button{	
+	height: 30px;
+	margin-right: 2px;
+	border: 0.5px solid #454545;
+}

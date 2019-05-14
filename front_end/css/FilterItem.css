@@ -1,0 +1,13 @@
+.FilterItem {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  border: 1.5px solid #3500F3;
+  border-radius: 5px;
+  padding: 10px;  
+  color: white;
+  background: #353535;}
+.FilterItem.is-checked{
+    background: #240090;
+    color: white;
+}
